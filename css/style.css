@@ -107,11 +107,11 @@ a:hover {
 /* Responsive styles */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2em; /* Smaller font size for smaller screens */
+        font-size: 1.5em; /* Smaller font size for smaller screens */
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
     .social-icons i {
