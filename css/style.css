@@ -103,32 +103,28 @@ a:hover {
 	color: #ddd;
 }	
 
-
-/* Responsive styles */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 1.5em; /* Smaller font size for smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column; /* Stack elements vertically on small screens */
     }
-
-    h2 {
-        font-size: 0.5em;
-    }
-
-    .social-icons i {
-        font-size: 1em; /* Smaller icons for smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
     .profile-card {
-        padding: 10px; /* Less padding for very small screens */
+        width: 80%; /* Increase width for smaller screens */
+        margin-top: 20px; /* Add space on top for smaller screens */
     }
-
-    .social-icons i {
-        margin: 0 5px; /* Less space between icons for very small screens */
+    .profile-pic {
+        width: 50%; /* Increase profile picture size */
+        margin-top: -50px; /* Adjust margin to pull the image upwards */
     }
-
+    h1 {
+        font-size: 1.5em; /* Adjust heading size for smaller screens */
+    }
+    .social-icons {
+        font-size: 1.2em; /* Adjust social icons size */
+    }
     .btn {
-        padding: 5px 10px; /* Smaller buttons for very small screens */
+        padding: 10px 15px; /* Increase button padding */
+    }
+    .section h2 {
+        font-size: 1.2em; /* Adjust section heading size */
     }
 }
