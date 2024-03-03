@@ -109,7 +109,7 @@ a:hover {
     }
     .profile-card {
 		padding: 10%;
-		height: 80%;
+		height: 100%;
 		width: 70%; /* Increase width for smaller screens */
     }
     .profile-pic {
@@ -130,7 +130,6 @@ a:hover {
     }
     .section h2 {
         font-size: 100%; /* Adjust section heading size */
-		margin-top: 20%;
     }
 	p {
 		font-size: 85%;
